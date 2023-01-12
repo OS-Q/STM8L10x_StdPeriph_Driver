@@ -1,0 +1,35 @@
+{
+    "type":"MCU",
+    "name":"CSM32RV20",
+    "title": "csm-ic CSM32RV20 MCU",
+    "description":"csm-ic RISC-V MCU",
+    "Core": {
+        "CoreNum": 1,
+        "Core":"RISC-V",
+        "Fmax":32,
+        "DMIPS": 40,
+        "CoreMark": 80
+    },
+    "manufacturer": {
+        "vendor":"csm-ic",
+        "homepage":"http://www.csm-ic.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/CSM32RV20.git"
+    },
+    "version":"1.0.0",
+    "series":["CSM32RV20"],
+    "package":["QFN32","QFN20","TSSOP20"],
+    "peripheral": ["Wi-Fi","BLE","SDIO","UART","SPI","IIC"],
+    "ESD": {
+        "HBM": 2000,
+        "CDM": 500
+    },
+    "keywords": [
+        "Cortex-M4",
+        "xradiotech",
+        "Wi-Fi","BLE","ADC","I2C","RTC","SPI","UART",
+        "3.6V","1.8V"
+    ]
+}
